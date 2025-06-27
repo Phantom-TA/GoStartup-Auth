@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: 'process.env.CLIENT_URI',
+  origin: process.env.CLIENT_URI,
   credentials: true
 }));
 app.use("/api", authRoutes)
