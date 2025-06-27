@@ -1,6 +1,6 @@
 class ApiClient {
     constructor() {
-        this.baseUrl = `${process.env.SERVER_URI}/api`,
+        this.baseUrl = 'https://gostartup-server.vercel.app/api',
         this.defaultHeaders ={
             'Content-type' :'application/json',
             'Accept':'application/json'
