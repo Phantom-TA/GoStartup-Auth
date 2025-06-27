@@ -1,6 +1,6 @@
 class ApiClient {
     constructor() {
-        this.baseUrl = 'http://localhost:3000/api',
+        this.baseUrl = `${process.env.SERVER_URI}/api`,
         this.defaultHeaders ={
             'Content-type' :'application/json',
             'Accept':'application/json'
