@@ -1,0 +1,48 @@
+.Landing-page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.home-page-content{
+     background: linear-gradient(to right, #0f172a, #1e293b);
+     max-width: 100%;
+     height: 85vh;
+     display: flex;
+    justify-content: space-between;
+     align-items: center;
+    padding: 4rem 4rem;
+    flex-wrap: wrap;
+}
+.text-content{
+    width: 40%;
+}
+.tag {
+  background: #334155;
+  color: #e0f2fe;
+  padding: 0 1.5rem 0 0.3rem ;
+  border-radius: 20rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.heading{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.btn-started{
+  background-color: #4f46e5;
+  color: white;
+}
+.dashboard-img{
+    border-radius: 1.5rem;
+}
