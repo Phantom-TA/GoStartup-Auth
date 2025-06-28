@@ -86,7 +86,7 @@ function Login(){
                 type="submit"
                 disabled={loading}
                 >
-                    {loading ? 'Login...' : 'Login'}
+                    {loading ? 'Login...' : 'Tushar'}
                     
                 </button>
                 <div className="register">
